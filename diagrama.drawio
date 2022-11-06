@@ -4,49 +4,41 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="12" value="" style="edgeStyle=none;html=1;" parent="1" source="10" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="415.0000000000002" y="250" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="61" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="Adivinar un número" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="309" y="10" width="210" height="100" as="geometry"/>
+                    <mxGeometry x="309" y="20" width="210" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="" style="edgeStyle=none;html=1;" parent="1" source="21" target="24" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="39" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="21" target="38">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="21" value="Introduzca un número a adivinar entre el 0 y el 99" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-                    <mxGeometry x="304" y="140" width="220" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="27" value="" style="edgeStyle=none;html=1;" parent="1" source="24" target="26" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="36" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="24" target="35">
+                <mxCell id="66" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="24" target="35">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="numero = input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-                    <mxGeometry x="334" y="290" width="160" height="30" as="geometry"/>
+                    <mxGeometry x="334" y="200" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="26" target="33">
+                <mxCell id="69" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="26" target="33">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="numero = int (numero entre el 0 y el 99)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-                    <mxGeometry x="300" y="390" width="240" height="40" as="geometry"/>
+                    <mxGeometry x="294" y="300" width="240" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="33" target="42">
+                <mxCell id="53" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="33" target="52">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="intento = int (numero entre el 0 y el 99 )" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="460" width="250" height="40" as="geometry"/>
+                    <mxGeometry x="289" y="360" width="250" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="35" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" value="intento = input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="334" y="340" width="160" height="30" as="geometry"/>
+                    <mxGeometry x="334" y="250" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="38" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="38" value="Definir intento y numero" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="304" y="220" width="220" height="40" as="geometry"/>
+                    <mxGeometry x="304" y="140" width="220" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="46" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="42" target="45">
                     <mxGeometry relative="1" as="geometry"/>
@@ -55,19 +47,40 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="¿Es numero = intento?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="360" y="550" width="130" height="120" as="geometry"/>
+                    <mxGeometry x="349" y="590" width="130" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="48" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="45" target="47">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="45" value="Sí" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="575" y="580" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="620" y="580" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" value="Fin" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="365" y="760" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="354" y="770" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="155" y="580" width="120" height="60" as="geometry"/>
+                <mxCell id="58" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="49" target="57">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="No" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="52" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Introduces &quot;numero&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="289" y="420" width="250" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="55" target="42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Introduces &quot;intento&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="294" y="480" width="250" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="57" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="Si es mayor: &quot;Demasiado grande&quot;&lt;br&gt;Si es menor: &quot;Demasiado pequeño&quot;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="460" width="160" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
